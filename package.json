@@ -3,15 +3,17 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "serve out"
+    "start": "serve out",
+    "export": "next export",
+    "static-export": "yarn build && yarn export"
   },
   "dependencies": {
     "@types/node": "^18.11.5",
-    "@types/react-dom": "^18.0.7",
     "@types/react": "^18.0.23",
-    "next": "latest",
-    "react-dom": "^18.2.0",
+    "@types/react-dom": "^18.0.7",
+    "next": "13.2.4",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "serve": "^14.2.0",
     "typescript": "^4.8.4"
   }
